@@ -94,7 +94,7 @@ footer {
     height: 85px;
     padding-left: 5px;
 }
-.mic-cam{
+.widget{
     display: flex;
     align-content: center;
     justify-content: center;
@@ -106,8 +106,9 @@ footer {
     gap: 15px;
     font-size: 25px;
 }
-.mute-unmute{
+.options{
     text-align: center;
+    line-height: 0.5;
 }
 .small{
     font-size: small;
