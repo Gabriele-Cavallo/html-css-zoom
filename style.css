@@ -118,5 +118,11 @@ button{
     color: white;
     border: transparent;
 }
+.call{
+    background-color: #4a4a4a;
+    height: 100%;
+    padding: 0px 20px;
+    color: red;
+}
 
 /* #endregion ---- Footer ---- */
