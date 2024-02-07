@@ -33,7 +33,7 @@ header{
     align-items: center;
     gap: 5px;
 }
-.bg-header{
+.bg-header-btn{
     border: transparent;
     border-radius: 5px;
     background-color: #4a4a4a;
