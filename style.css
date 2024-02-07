@@ -137,7 +137,7 @@ footer {
     border: transparent;
 }
 .widget-meeting button:hover{
-    background-color: #65717a;
+    background-color: rgba(103, 114, 123, 0.3);
     height: 85px;
     padding: 0 15px;
     border-radius: 15px;
