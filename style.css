@@ -43,3 +43,40 @@ header{
 }
 
 /* #endregion ---- Header ---- */
+
+/* #region ---- Main ---- */
+
+main{
+    display: flex;
+    justify-items: center;
+}
+.cameras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 90px 30px;
+    overflow-y: auto;
+    gap: 14px 7px;
+}
+.cam{
+    position: relative;
+    color: white;
+}
+.mic-user{
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+.mic , .user{
+    padding: 5px 5px;
+    background-color: #65717a;
+}
+.user{
+    background-color: rgba(103, 114, 123, 0.5);
+}
+
+/* #endregion ---- Main ---- */
