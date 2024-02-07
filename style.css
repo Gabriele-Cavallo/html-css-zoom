@@ -12,7 +12,6 @@
 body{
     background-color: #000000;
 }
-/* #endregion ---- General ---- */
 header{
     height: 35px;
 }
@@ -23,3 +22,5 @@ footer
 {
     height: 85px;
 }
+
+/* #endregion ---- General ---- */
