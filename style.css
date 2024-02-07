@@ -24,3 +24,20 @@ footer
 }
 
 /* #endregion ---- General ---- */
+
+/* #region ---- Header ---- */
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+.bg-header{
+    background-color: #4a4a4a;
+    color: white;
+    padding: 3px 1px;
+    cursor: pointer;
+}
+
+/* #endregion ---- Header ---- */
