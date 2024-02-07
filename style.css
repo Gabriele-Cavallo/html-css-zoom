@@ -22,6 +22,9 @@ footer
 {
     height: 85px;
 }
+.bg-header-btn , .btn-ftr , .call{
+    cursor: pointer;
+}
 
 /* #endregion ---- General ---- */
 
@@ -39,7 +42,6 @@ header{
     background-color: #4a4a4a;
     color: white;
     padding: 7px 5px;
-    cursor: pointer;
 }
 
 /* #endregion ---- Header ---- */
@@ -127,7 +129,6 @@ footer {
     background-color: #222222;
     color: white;
     border: transparent;
-    cursor: pointer;
 }
 .call{
     background-color: #4a4a4a;
