@@ -6,3 +6,20 @@
     border: 2px solid white;
 }
 /* #endregion ---- Reset ---- */
+
+/* #region ---- General ---- */
+
+body{
+    background-color: #000000;
+}
+/* #endregion ---- General ---- */
+header{
+    height: 35px;
+}
+main{
+    height: calc(100vh - 120px);
+}
+footer
+{
+    height: 85px;
+}
