@@ -93,12 +93,22 @@ footer {
     align-items: center;
     height: 85px;
     padding-left: 5px;
+    position: relative;
 }
 .widget{
     display: flex;
     align-content: center;
     justify-content: center;
     gap: 20px;
+}
+.widget-meeting{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50% , 50%);
+    gap: 10px;
+
 }
 .action{
     display: flex;
@@ -113,16 +123,25 @@ footer {
 .small{
     font-size: small;
 }
-button{
+.btn-ftr{
     background-color: #222222;
     color: white;
     border: transparent;
+    cursor: pointer;
 }
 .call{
     background-color: #4a4a4a;
     height: 100%;
     padding: 0px 20px;
     color: red;
+    border: transparent;
+}
+.widget-meeting button:hover{
+    background-color: #65717a;
+    height: 85px;
+    padding: 0 15px;
+    border-radius: 15px;
+    color: #4bc800;
 }
 
 /* #endregion ---- Footer ---- */
