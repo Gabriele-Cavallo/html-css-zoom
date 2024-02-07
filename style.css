@@ -55,7 +55,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 50px 90px 30px;
+    padding: 50px 90px 0px;
     overflow-y: auto;
     gap: 14px 7px;
 }
