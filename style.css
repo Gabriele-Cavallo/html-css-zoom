@@ -60,6 +60,7 @@ main{
     padding: 50px 90px 0px;
     overflow-y: auto;
     gap: 14px 7px;
+    align-content: flex-start;
 }
 .cam{
     position: relative;
@@ -110,7 +111,7 @@ footer {
     bottom: 50%;
     transform: translate(-50% , 50%);
     gap: 10px;
-
+    
 }
 .action{
     display: flex;
